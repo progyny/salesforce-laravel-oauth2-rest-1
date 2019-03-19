@@ -9,7 +9,7 @@
   "require": {
     "php": ">=5.5.9",
     "guzzlehttp/guzzle":"~6.0",
-    "frankkessler/guzzle-oauth2-middleware":"0.1.*",
+    "frankkessler/guzzle-oauth2-middleware":"dev-master",
     "illuminate/http": "~5.1",
     "illuminate/routing": "~5.1",
     "illuminate/support": "~5.1",
@@ -38,5 +38,11 @@
       "tests/GuzzleServer.php",
       "tests/BulkBatchProcessor.php"
     ]
-  }
+  },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/progyny/guzzle-oauth2-middleware"
+        }
+    ]
 }
