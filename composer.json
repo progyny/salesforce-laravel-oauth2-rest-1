@@ -42,7 +42,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/progyny/guzzle-oauth2-middleware"
+            "url": "https://github.com/progyny/guzzle-oauth2-middleware-1"
         }
     ]
 }
