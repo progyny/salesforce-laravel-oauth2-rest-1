@@ -476,7 +476,6 @@ class Salesforce
                 $lowerCaseHeaders = $options['lowerCaseHeaders'];
                 unset($options['lowerCaseHeaders']);
             }
-
             $response = $this->oauth2Client->{$method}($url, $options);
 
             /* @var $response \GuzzleHttp\Psr7\Response */
