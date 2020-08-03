@@ -25,4 +25,9 @@ class QueryResponse extends SalesforceBaseResponse
      * @var string
      */
     public $nextRecordsUrl;
+
+    /**
+     * @var string
+     */
+    public $message_string;
 }
